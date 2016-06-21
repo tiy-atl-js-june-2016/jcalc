@@ -10,6 +10,8 @@ var processButton = function (event) {
 //  console.log(target.dataset);
   var dataType = target.dataset.type;
 
+  $(target).toggleClass("circled");
+
   if (dataType === "number") return processNumber(target);
   if (dataType === "operator") return processOperator(target);
   if (dataType === "clear") return processClear(target);

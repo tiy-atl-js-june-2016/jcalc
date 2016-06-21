@@ -24,3 +24,10 @@
   color: white;
   font-size: 30px;
   text-align: center; }
+  .buttons div[data-type="number"]:hover {
+    background: red;
+    transition: all 1.5s ease-in-out; }
+
+.circled {
+  border-radius: 100%;
+  transition: border-radius 1.0s ease-in-out; }
