@@ -1,0 +1,28 @@
+.container {
+    max-width: 29%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.calculator {
+  width: 100%;
+  border: 3px solid grey;
+  margin: 20px auto;
+}
+
+#display {
+    height: 80px;
+    background: lightgreen;
+}
+
+.buttons div {
+    width: 90px;
+    height: 60px;
+    margin: 5px 0px;
+    padding-top: 10px;
+    display: inline-block;
+    background: grey;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
