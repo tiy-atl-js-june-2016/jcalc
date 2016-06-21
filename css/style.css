@@ -1,5 +1,5 @@
 .container {
-  max-width: 29%;
+  max-width: 30%;
   margin-left: 30%;
   margin-right: 30%; }
 
@@ -10,7 +10,9 @@
 
 #display {
   height: 80px;
-  background: lightgreen; }
+  background: lightgreen;
+  font-weight: bold;
+  font-size: 30px; }
 
 .buttons div {
   width: 90px;
